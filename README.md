@@ -1,6 +1,5 @@
 # AgriVistaar - Connecting Farmers & Buyers
 
-![AgriVistaar Banner](assets/banner.png)
 
 ## 📌 About AgriVistaar
 **AgriVistaar** is a comprehensive Android application designed to empower **farmers and buyers** by providing a direct **trading platform**. This eliminates middlemen and enhances fair trade, ensuring that farmers get the best prices for their produce.
@@ -15,9 +14,9 @@
 ---
 ## 📷 Screenshots
 ### 🔹 Dashboard
-![Dashboard](assets/dashboard.png)
+![Dashboard](AgriVistaar/Images/Account_dashboard.jpg)
 ### 🔹 Home Page
-![Home Page](assets/homepage.png)
+![Home Page](AgriVistaar/Images/agrivistarr-homepage.jpg)
 
 ---
 ## ⚙️ Tech Stack
