@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name" translatable="false">AgriVistaar</string>
+    <string name="language_selection" translatable="false">*Choose Your Language*</string>
+    <string name="english" translatable="false">English</string>
+    <string name="hindi" translatable="false">हिंदी</string>
+    <string name="gujarati" translatable="false">ગુજરાતી</string>
+    <string name="logo" translatable="false">Logo</string>
+    <string name="arrow" translatable="false">Arrow</string>
+    <string name="farmer2" translatable="false">farmer2</string>
+    <string name="farmer3" translatable="false">farmer3</string>
+    <string name="farmer1" translatable="false">farmer1</string>
+    <string name="phone_no_email_id">Phone No./Email Address</string>
+    <string name="password">Password</string>
+    <string name="i_am_a">I am a:</string>
+    <string name="farmer">Farmer</string>
+    <string name="buyer">Buyer</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="or">------Or------</string>
+    <string name="other_ways">----------Other Ways----------</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="get_started">Get Started</string>
+    <string name="Continue">continue</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="didn_t_receive_it_yet">Didn\'t receive it yet?</string>
+    <string name="verify">Verify</string>
+    <string name="notification">Notification</string>
+    <string name="cart">Cart</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="statistics">Statistics</string>
+    <string name="profile">Profile</string>
+    <string name="ravi_teja">Ravi Teja</string>
+    <string name="_8140532074">8140532074</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="my_account">My Account</string>
+    <string name="my_orders">My Orders</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="support">Support</string>
+    <string name="logout">Logout</string>
+    <string name="welcome" translatable="false">Welcome,</string>
+    <string name="grains_amp_pulses"><![CDATA[Grains & Pulses]]></string>
+    <string name="fruits_amp_vegetables"><![CDATA[Fruits & Vegetables]]></string>
+    <string name="wheat">Wheat</string>
+    <string name="from_25_kg">From ₹25/kg</string>
+    <string name="chickpeas">Chickpeas</string>
+    <string name="from_260_kg">From ₹260/kg</string>
+    <string name="from_150_kg">From ₹150/kg</string>
+    <string name="potato">Potato</string>
+    <string name="millet">Millet</string>
+    <string name="from_100_kg">From $100/kg</string>
+    <string name="tomato">Tomato</string>
+    <string name="from_50_kg">from ₹50/kg</string>
+    <string name="recenly_searched">Recently Searched</string>
+    <string name="trending">Trending</string>
+    <string name="fresh_hybrid">Fresh Hybrid...</string>
+    <string name="grade_a">Grade A...</string>
+    <string name="orders">Orders</string>
+    <string name="_00" translatable="false">00</string>
+    <string name="_0" translatable="false">0%</string>
+    <string name="sales">Sales</string>
+    <string name="impressions">Impressions</string>
+    <string name="new_buyers">New Buyers</string>
+    <string name="recent_orders">Recent Orders</string>
+    <string name="back">Back</string>
+    <string name="member_since_2024">Member since 2024</string>
+    <string name="manage">Manage</string>
+    <string name="email">Email</string>
+    <string name="ravi1902_gmail_com" translatable="false">Ravi1902@gmail.com</string>
+    <string name="phone">Phone</string>
+    <string name="_82_99" translatable="false">82******99</string>
+    <string name="manage_addresses">Manage Addresses</string>
+    <string name="change_password">Change Password</string>
+    <string name="no_orders_found">No Orders Found</string>
+    <string name="explore_products">Explore Products</string>
+    <string name="product_details">Product Details</string>
+    <string name="hybrid_fresh_red_tomatoes">Hybrid Fresh Red Tomatoes</string>
+    <string name="_4_4" translatable="false">4.4 ★</string>
+    <string name="_10_kg" translatable="false">₹10/kg*</string>
+    <string name="sold_by_shivay_vegetable_amp_fruits"><![CDATA[Sold by:Shivay Vegetable & Fruits]]></string>
+    <string name="description">Description</string>
+    <string name="speciality_hybrid">Speciality:Hybrid</string>
+    <string name="color_mixed">Color:Mixed</string>
+    <string name="pakaging_type_carton">Pakaging Type:Carton</string>
+    <string name="location_noida_uttar_pradesh">Location:Noida,Uttar Pradesh</string>
+    <string name="reviews">Reviews</string>
+    <string name="upi" translatable="false">UPI</string>
+    <string name="abc_axl" translatable="false">abc@axl</string>
+    <string name="xyz_ybl" translatable="false">xyz@ybl</string>
+    <string name="_81_74_fam" translatable="false">81********74@fam</string>
+    <string name="cards">Cards</string>
+    <string name="mastercard">MasterCard</string>
+    <string name="visa">Visa</string>
+    <string name="banks">Banks</string>
+    <string name="bank_of_baroda_8711">Bank Of Baroda-8711</string>
+    <string name="kotak_bank_9214">Kotak Bank - 9214</string>
+    <string name="akhilesh">Akhilesh</string>
+    <string name="khapli_wheat">Khapli Wheat</string>
+    <string name="golden_lokwan_wheat">Golden Lokwan Wheat</string>
+    <string name="sharbati_wheat">Sharbati Wheat</string>
+    <string name="name">Name</string>
+    <string name="login">Log In</string>
+    <string name="apples">Apples</string>
+    <string name="submit">Submit</string>
+    <string name="bansi_wheat">Bansi Wheat</string>
+    <string name="email_address">Email Address</string>
+    <string name="hello_blank_fragment">hello_blank_fragment</string>
+    <string name="product_name">Product Name</string>
+    <string name="submit_product">Submit Product</string>
+    <string name="product_quantity">product Quantity</string>
+    <string name="product_price">Product Price</string>
+    <string name="product_image">Product Image</string>
+    <string name="select_image">Select Image</string>
+    <string name="add_products">Add Products</string>
+    <string name="add_product">Add Product</string>
+    <string name="btn_cart">Btn_cart</string>
+</resources>

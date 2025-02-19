@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "968379886667",
+    "firebase_url": "https://agrivistaar-ff268-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "agrivistaar-ff268",
+    "storage_bucket": "agrivistaar-ff268.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968379886667:android:7d34270bd3f0c3f917b1ce",
+        "android_client_info": {
+          "package_name": "com.farmbiz.agrivistaar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968379886667-nb81h8sm2gn8hh9dcprcvbv5vhs892ks.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.farmbiz.agrivistaar",
+            "certificate_hash": "f1c1ad99bab81b25872a381e78de64eb3cde33e5"
+          }
+        },
+        {
+          "client_id": "968379886667-96b12d561uia7cpucjf2t9eugl55a15s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK1Yh4XrFuhQ-pbTFJ3NNp8U4q-9zNwtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968379886667-96b12d561uia7cpucjf2t9eugl55a15s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

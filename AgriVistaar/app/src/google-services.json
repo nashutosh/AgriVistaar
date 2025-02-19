@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "968379886667",
+    "project_id": "agrivistaar-ff268",
+    "storage_bucket": "agrivistaar-ff268.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968379886667:android:7d34270bd3f0c3f917b1ce",
+        "android_client_info": {
+          "package_name": "com.farmbiz.agrivistaar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK1Yh4XrFuhQ-pbTFJ3NNp8U4q-9zNwtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

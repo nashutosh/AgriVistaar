@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LanguageSelectionActivity"
+    android:background="@color/light_yellow"
+    tools:ignore="ExtraText">
+
+    <!-- Top Slider with horizontal scroll for images -->
+    <HorizontalScrollView
+        android:id="@+id/slider"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <!-- Image Item 1 -->
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/img_slider1"
+                android:scaleType="centerCrop"
+                android:layout_marginEnd="8dp"/>
+
+            <!-- Image Item 2 -->
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/img_slider3"
+                android:scaleType="centerCrop"
+                android:layout_marginEnd="8dp"/>
+
+            <!-- Image Item 3 -->
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/img_slider2"
+                android:scaleType="centerCrop"
+                android:layout_marginEnd="8dp"/>
+
+            <!-- Image Item 4 -->
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/img3"
+                android:scaleType="centerCrop"
+                android:layout_marginEnd="8dp"/>
+
+            <!-- Image Item 5 -->
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/img1"
+                android:scaleType="centerCrop"
+                android:layout_marginEnd="8dp"/>
+
+            <!-- Image Item 6 -->
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/img5"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- Main ScrollView for vertical scrolling -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slider"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp">
+
+            <!-- Grains & Pulses Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grains_amp_pulses"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingVertical="8dp"
+                android:textColor="#444" />
+
+            <!-- Horizontal Scroll for Grains & Pulses -->
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!-- Sample Product Item for Grains & Pulses -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/wheat_img"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/wheat"
+                            android:textSize="20sp"
+                            android:paddingTop="4dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/from_25_kg"
+                            android:textSize="18sp"
+                            android:textColor="#888" />
+                    </LinearLayout>
+
+                    <!-- Repeat similar blocks for other grains products -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/chickpeas_img"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/chickpeas"
+                            android:textSize="20sp"
+                            android:paddingTop="4dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/from_260_kg"
+                            android:textSize="18sp"
+                            android:textColor="#888" />
+                    </LinearLayout>
+
+                    <!-- Add more product items here -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/millet_img"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/millet"
+                            android:textSize="20sp"
+                            android:paddingTop="4dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/from_100_kg"
+                            android:textSize="18sp"
+                            android:textColor="#888" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <!-- Fruits & Vegetables Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fruits_amp_vegetables"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingVertical="8dp"
+                android:textColor="#444" />
+
+            <!-- Horizontal Scroll for Fruits & Vegetables -->
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!-- Sample Product Item for Fruits & Vegetables -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/apple_img"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/apples"
+                            android:textSize="20sp"
+                            android:paddingTop="4dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/from_150_kg"
+                            android:textSize="18sp"
+                            android:textColor="#888" />
+                    </LinearLayout>
+
+                    <!-- Repeat similar blocks for other fruit products -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/potato_img"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/potato"
+                            android:textSize="20sp"
+                            android:paddingTop="4dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/from_25_kg"
+                            android:textSize="18sp"
+                            android:textColor="#888" />
+                    </LinearLayout>
+
+                    <!-- Add more product items here -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/tomato_img"
+                            android:scaleType="centerCrop" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tomato"
+                            android:textSize="20sp"
+                            android:paddingTop="4dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/from_50_kg"
+                            android:textSize="18sp"
+                            android:textColor="#888" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

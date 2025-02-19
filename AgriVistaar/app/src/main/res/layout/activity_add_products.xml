@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".AddProductsActivity">
+
+    <!-- Product Name Input -->
+    <EditText
+        android:id="@+id/editTextProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="20dp"
+        android:hint="@string/product_name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        android:padding="10dp"
+        android:background="@drawable/bg_add_product_edit_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Product Category Dropdown -->
+    <Spinner
+        android:id="@+id/spinnerProductCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_add_product_edit_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextProductName"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Product Price Input -->
+    <EditText
+        android:id="@+id/editTextProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/product_price"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:background="@drawable/bg_add_product_edit_text"
+        app:layout_constraintTop_toBottomOf="@id/spinnerProductCategory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Quantity Available Input -->
+    <EditText
+        android:id="@+id/editTextProductQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/product_quantity"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="number"
+        android:padding="10dp"
+        android:background="@drawable/bg_add_product_edit_text"
+        app:layout_constraintTop_toBottomOf="@id/editTextProductPrice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Product Description Input -->
+    <EditText
+        android:id="@+id/editTextProductDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/product_details"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:gravity="top"
+        android:padding="10dp"
+        android:background="@drawable/bg_add_product_edit_text"
+        app:layout_constraintTop_toBottomOf="@id/editTextProductQuantity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Product Image Upload Section -->
+    <ImageView
+        android:id="@+id/imageViewProductImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/product_image"
+        android:src="@drawable/add_image"
+        app:layout_constraintTop_toBottomOf="@id/editTextProductDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSelectImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:text="@string/select_image"
+        android:background="@drawable/bg_button_add_product"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/imageViewProductImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Submit Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSubmitProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:text="@string/submit_product"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_button_add_product"
+        app:layout_constraintTop_toBottomOf="@id/buttonSelectImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
